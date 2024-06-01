@@ -1,0 +1,274 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+.page1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)),url(netflix\ bacground\ image.jpg);
+    width: 100%;
+    height: 100vh;
+    
+    background-position: center;
+    background-size: auto;
+    
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 10px 0;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+    padding: 20px;
+    border: 10px;
+}
+.langbutton{
+    background-color:transparent;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    
+    
+}
+.signbutton{
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    padding:7px 20px;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 10px;
+    border:none;
+}
+.content1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+}
+.content1 h1{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70px;
+    margin-bottom: 10px;
+}
+.content1 h2{
+    font-weight: 300;
+    margin-bottom: 20px;
+} 
+.mail{
+    margin-top: 30px;
+   
+    align-items: center;
+}
+.mail input{
+    background: transparent;
+    width: 500px;
+    height:45px;
+    position: absolute;
+    left: 2px;
+}
+.mail button{
+    background-color: red;
+    color: white;
+    width: 250px;
+    height: 53px;
+    font-size: 20px;
+    position: absolute;
+    cursor: pointer;
+    padding: 15px;
+    position: absolute;
+    left:450px;
+}
+
+.feature{
+    padding: 50px 12%;
+    
+}
+.feature h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    
+    
+}
+.textcol{
+     flex-basis:50%;
+     margin-bottom: 20px;
+     font-size: 22px;
+     padding: 5pxx;
+    
+}
+.imagecol{
+    flex-basis:50%;
+    margin-bottom: 20px;
+}
+
+.imagecol img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.feature1{
+    padding: 50px 12%;
+}
+.feature1 h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+
+
+.row1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    
+    
+}
+.textcol1{
+     flex-basis:50%;
+     margin-bottom: 20px;
+     font-size: 22px;
+     padding: ;
+    
+}
+.imagecol1{
+    flex-basis:50%;
+    margin-bottom: 20px;
+}
+
+.imagecol1 img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+
+
+
+
+.feature2{
+    padding: 50px 12%;
+}
+.feature2 h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+
+
+.row2{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    
+    
+}
+.textcol2{
+     flex-basis:50%;
+     margin-bottom: 20px;
+     font-size: 22px;
+     padding: ;
+    
+}
+.imagecol2{
+    flex-basis:50%;
+    margin-bottom: 20px;
+}
+
+.imagecol2 img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.feature3{
+    padding: 50px 12%;
+}
+.feature3 h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+
+
+.row3{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    
+    
+}
+.textcol3{
+     flex-basis:50%;
+     margin-bottom: 20px;
+     font-size: 22px;
+     padding: ;
+    
+}
+.imagecol3{
+    flex-basis:50%;
+    margin-bottom: 20px;
+}
+
+.imagecol3 img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.remail{
+    margin-top: 30px;
+   
+    align-items: center;
+}
+.remail input{
+    background: transparent;
+    width: 500px;
+    height:45px;
+    position: absolute;
+    left: 2px;
+}
+.remail button{
+    background-color: red;
+    color: white;
+    width: 250px;
+    height: 53px;
+    font-size: 20px;
+    position: absolute;
+    cursor: pointer;
+    padding: 15px;
+    position: absolute;
+    left:450px;
+}
+
+   
+    
